@@ -4,16 +4,16 @@ except ImportError:
 	from distutils.core import setup
 
 config = {
-	'description': 'Auto Testing Project',
+	'description': 'My Project',
 	'author': 'Samir Aryamane',
 	'url': 'URL to get it at.',
 	'download_url': 'Where to download it',
 	'author_email': 'samirarya@gmail.com',
 	'version': '0.1',
 	'install_requires': ['nose'],
-	'packages': ['auto_testing_proj'],
+	'packages': ['NAME'],
 	'scripts': [],
-	'name': 'auto_testing_proj'
+	'name': 'projectname'
 }
 
 setup(**config)
